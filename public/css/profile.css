@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fbfbfb;
+	background-image: url("{{asset(image/fall.jpg')}}");
+}
+
+.card{
+	position: absolute;
+	max-width: 600px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	min-height: 400px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.card .box
+{
+	position: absolute;
+	top: 53%;
+	left: 0;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.card .box .img
+{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.card .box .img img
+{
+	width: 100%;
+}
+.card .box h2
+{
+	font-size: 20px;
+	color: #044463;
+}
+.card .box h2 span
+{
+	font-size: 14px;
+	background: #e91e63;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 15px;
+}
+.card .box p
+{
+	font-size: 12px;
+	color: black;
+}
